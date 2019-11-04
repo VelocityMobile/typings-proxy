@@ -4,6 +4,7 @@
   "description": "Proxy requests to the Typings API.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/VelocityMobile/typings-proxy#readme",
   "dependencies": {
     "http": "0.0.0"
+  },
+  "devDependencies": {
+    "node": "^12.13.0"
   }
 }
